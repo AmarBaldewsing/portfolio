@@ -1,0 +1,122 @@
+.con-header {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.con-header .img {
+    width: 400px;
+    height: 400px;
+    background-image: url("../img/ik.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 50px 50px 0px 0px #17223a;
+}
+
+.con-header .txt {
+    max-width: 50ch;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.con-main {
+    min-height: 75vh;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con-main h1 {text-align: center;}
+
+.items-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.items-main .card {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    background-image: url('../img/placeholder.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.items-main .card1 {
+    background-image: url('../img/Portfolio.png');
+}
+
+.items-main .card2 {
+    background-image: url('../img/Game.png');
+}
+
+.items-main .card3 {
+    background-image: url('../img/Lego-poppetje.jpg');
+    background-position: top !important;
+}
+
+.card .shadow-card {
+    min-width: 100%;
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    background-color: #121212ae;
+}
+
+.con-skills {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 2px solid #17223a;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    width: 300px;
+    font-size: 14px;
+}
+  
+.radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+}
+  
+.radio-inputs .radio input {
+    display: none;
+}
+  
+.radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    color: rgba(51, 65, 85, 1);
+    transition: all .15s ease-in-out;
+}
+  
+.radio-inputs .radio input:checked + .name {
+    background-color: #fff;
+    font-weight: 600;
+}
