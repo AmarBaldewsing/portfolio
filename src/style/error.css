@@ -1,0 +1,15 @@
+.error-con {
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins' ,sans-serif;
+    min-height: 60vh;
+    text-align: center;
+    color: #fff;
+}
+
+.error-con div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}

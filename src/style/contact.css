@@ -1,0 +1,23 @@
+.con-contact {
+    min-height: 80vh;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.con-contact .img-ik {
+    width: 400px;
+    height: 400px;
+    background-image: url('../img/ik.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.con-contact ul {
+    list-style-type: none;
+}

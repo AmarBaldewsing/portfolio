@@ -1,0 +1,51 @@
+.Projecten section {
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.Projecten h1 {text-align: center;}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info .img-info {
+    height: 300px;
+    width: 300px;
+    background-image: url('../img/game-inside.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.info .txt-info {
+    max-width: 40ch;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.con-webItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.item-web .img-item {
+    width: 40vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-web .room {background-image: url('../img/sematric\ room.png');}
+.item-web .river {background-image: url('../img/riverside.png');}
+.item-web .crud {background-image: url('../img/agenda.png');}
+.item-web .whey {background-image: url('../img/Portfolio.png');}
